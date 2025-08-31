@@ -25,9 +25,6 @@ function App() {
               <p className="mb-4">
                 © 2024 Paranietharan Palasuntharam. All rights reserved.
               </p>
-              <p className="text-gray-400 text-sm">
-                Built with React, TypeScript, and Tailwind CSS
-              </p>
             </div>
           </div>
         </footer>
