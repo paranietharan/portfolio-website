@@ -10,8 +10,6 @@ const Navigation: React.FC = () => {
   const navItems = [
     { id: 'hero', label: 'Home' },
     { id: 'about', label: 'About' },
-    { id: 'education', label: 'Education' },
-    { id: 'projects', label: 'Projects' },
     { id: 'skills', label: 'Skills' },
     { id: 'contact', label: 'Contact' },
   ];
@@ -47,7 +45,7 @@ const Navigation: React.FC = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="text-xl font-bold text-blue-600 dark:text-blue-400">
-            Paranietharan.dev
+            Paranietharan
           </div>
 
           {/* Desktop Navigation */}
