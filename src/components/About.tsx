@@ -90,12 +90,19 @@ const About: React.FC = () => {
               Personal Interests
             </h3>
             <div className="flex flex-wrap justify-center gap-4">
-              {['Traveling', 'Photography', 'Music', 'Technology', 'Innovation'].map((interest, index) => (
+              {[
+                { name: 'Traveling', emoji: '✈️' },
+                { name: 'Photography', emoji: '📸' },
+                { name: 'Music', emoji: '🎵' },
+                { name: 'Technology', emoji: '💻' },
+                { name: 'Innovation', emoji: '💡' }
+              ].map((interest, index) => (
                 <div
                   key={index}
                   className="px-6 py-3 bg-gradient-to-r from-blue-500 to-indigo-600 text-white rounded-full font-medium shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200"
                 >
-                  {interest}
+                  <span className="mr-2">{interest.emoji}</span>
+                  {interest.name}
                 </div>
               ))}
             </div>
