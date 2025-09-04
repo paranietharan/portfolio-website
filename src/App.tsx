@@ -17,17 +17,6 @@ function App() {
           <Skills />
           <Contact />
         </main>
-        
-        {/* Footer */}
-        <footer className="bg-gray-900 dark:bg-black text-white py-8">
-          <div className="container mx-auto px-4">
-            <div className="text-center">
-              <p className="mb-4">
-                © 2024 Paranietharan Palasuntharam. All rights reserved.
-              </p>
-            </div>
-          </div>
-        </footer>
       </div>
     </ThemeProvider>
   );
