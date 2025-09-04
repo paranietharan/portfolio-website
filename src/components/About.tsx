@@ -1,5 +1,5 @@
 import React from 'react';
-import { Code, Database, Smartphone, Cloud, Briefcase } from 'lucide-react';
+import { Code, Database, Smartphone, Cloud} from 'lucide-react';
 
 const About: React.FC = () => {
   const highlights = [
@@ -55,27 +55,8 @@ const About: React.FC = () => {
                 on various projects ranging from e-commerce platforms to AI-powered educational tools, 
                 always focusing on user experience and performance optimization.
               </p>
-              
-              {/* Professional Experience */}
-              <div className="mb-6 p-4 bg-blue-50 dark:bg-blue-900/20 rounded-lg border-l-4 border-blue-500">
-                <div className="flex items-center mb-2">
-                  <Briefcase className="w-5 h-5 text-blue-600 dark:text-blue-400 mr-2" />
-                  <h4 className="text-lg font-semibold text-gray-900 dark:text-white">
-                    Current Position
-                  </h4>
-                </div>
-                <p className="text-blue-600 dark:text-blue-400 font-medium">
-                  Software Development Intern at Qlub
-                </p>
-                <p className="text-sm text-gray-600 dark:text-gray-300">
-                  February 2025 - Present | qlub.io
-                </p>
-                <p className="text-sm text-gray-600 dark:text-gray-300 mt-2">
-                  Working on innovative software solutions and gaining hands-on experience in professional development environments.
-                </p>
-              </div>
 
-              <div className="flex flex-wrap gap-3">
+              <div className="flex flex-wrap gap-3 mt-6">
                 <span className="px-3 py-1 bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 rounded-full text-sm font-medium">
                   Tamil (Native)
                 </span>
