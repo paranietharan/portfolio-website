@@ -3,12 +3,11 @@ FROM node:20-alpine AS builder
 WORKDIR /app
 
 COPY package*.json ./
-COPY yarn.lock* ./
-RUN yarn install --frozen-lockfile || npm ci
+RUN npm ci
 
 COPY . .
 
-RUN yarn build || npm run build
+RUN npm run build
 
 
 FROM nginx:1.25-alpine
